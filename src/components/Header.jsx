@@ -12,10 +12,10 @@ const Header = () => {
         <Logo>Roshan karki
             </Logo> 
         <Navitems>
-        <a to='#home'>Home</a>
-            <a href=''>About</a>
-            <a to='/'>Skills</a>
-            <a to='/'>Findme</a>
+        <a to='#home' className='text-light'>Home</a>
+            <a href='#about' className='text-light'>About</a>
+            <a to='#project' className='text-light'>project</a>
+            <a to='#footer' className='text-light'>Findme</a>
         </Navitems>
         {!show&&
         <button onClick={()=>setshow(!show)}>
@@ -29,10 +29,10 @@ const Header = () => {
             <button  onClick={()=>setshow(!show)}>
             <CloseIcon/>
             </button>
-           <a to='/'>Home</a>
-            <a to='/'>About</a>
-            <a to='/'>Skills</a>
-            <a to='/'>Findme</a>
+           <a to='#home'>Home</a>
+            <a to='#about'>About</a>
+            <a to='#project'>Skills</a>
+            <a to='#footer'>Findme</a>
             
 
         </Sidebar>
@@ -55,7 +55,6 @@ align-items: center;
 justify-content: space-between;
 background-color: black;
 padding:0 50px;
-/* width: 100vw; */
 position: relative;
 overflow-x: hidden;
 
