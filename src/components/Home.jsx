@@ -13,7 +13,7 @@ const Home = () => {
      </Gif>
      <Buttons>
 
-     <a href='public/mycv.pdf' download className='btn btn-outline-primary btn-lg' target="_blank"> My Resume </a>
+     <a href='https://app.sajilocv.com/cv/6256ebcf-9065-42d7-8415-cdfa5297a5c9' download className='btn btn-outline-primary btn-lg' target="_blank"> My Resume </a>
      <a href='https://github.com/roshankc00?tab=repositories' className='btn btn-outline-primary btn-lg' target="_blank"> my  Github </a>
      </Buttons>
 
